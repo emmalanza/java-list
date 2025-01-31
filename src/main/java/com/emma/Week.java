@@ -18,7 +18,7 @@ public class Week {
     }
 
     public List<String> getDaysOfWeek() {
-        return new ArrayList<>();
+        return this.days;
     }
     public int getListSize() {
         return 0;
