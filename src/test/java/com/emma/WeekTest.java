@@ -24,4 +24,9 @@ public class WeekTest {
         assertTrue(days.contains("Monday"));
     }
 
+    @Test 
+    public void testGetListSize() {
+        assertEquals(7, week.getListSize());
+    }
+
 }
