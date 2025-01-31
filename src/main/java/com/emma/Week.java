@@ -8,12 +8,24 @@ public class Week {
 
     public Week() {
         this.days = new ArrayList<>();
+        this.days.add("Monday");
+        this.days.add("Tuesday");
+        this.days.add("Wednesday");
+        this.days.add("Thursday");
+        this.days.add("Friday");
+        this.days.add("Saturday");
+        this.days.add("Sunday");
     }
 
-    public void createListOfDays() {}
-    public List<String> getDaysOfWeek() {}
-    public int getListSize() {}
-    public boolean deleteDay(String day) {}
+    public List<String> getDaysOfWeek() {
+        return new ArrayList<>();
+    }
+    public int getListSize() {
+        return 0;
+    }
+    public boolean deleteDay(String day) {
+        return false;
+    }
     public void sort() {}
     public void clearList() {}
 
