@@ -21,7 +21,7 @@ public class Week {
         return this.days;
     }
     public int getListSize() {
-        return 0;
+        return this.days.size();
     }
     public boolean deleteDay(String day) {
         return false;
