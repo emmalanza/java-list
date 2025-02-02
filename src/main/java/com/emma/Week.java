@@ -34,4 +34,8 @@ public class Week {
         this.days.clear();
     }
 
+    public String getDayByIndex(int index) {
+        return this.days.get(index);
+    }
+
 }
