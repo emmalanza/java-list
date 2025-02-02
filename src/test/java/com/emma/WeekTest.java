@@ -58,4 +58,10 @@ public class WeekTest {
 
     }
 
+    @Test
+    public void testIsInDaysList() {
+        assertTrue(week.isInDaysList("Monday"));
+        assertFalse(week.isInDaysList("December"));
+    }
+
 }
