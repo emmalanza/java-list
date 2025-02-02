@@ -43,4 +43,10 @@ public class WeekTest {
         
     }
 
+    @Test
+    public void testClearList() {
+        week.clearList();
+        assertEquals(0, week.getListSize());
+    }
+
 }
