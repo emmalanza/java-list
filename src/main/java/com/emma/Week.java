@@ -29,7 +29,9 @@ public class Week {
     public void sort() {
         this.days.sort(null);
     }
-    
-    public void clearList() {}
+
+    public void clearList() {
+        this.days.clear();
+    }
 
 }
