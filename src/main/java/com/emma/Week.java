@@ -26,7 +26,10 @@ public class Week {
     public boolean deleteDay(String day) {
         return this.days.remove(day);
     }
-    public void sort() {}
+    public void sort() {
+        this.days.sort(null);
+    }
+    
     public void clearList() {}
 
 }
